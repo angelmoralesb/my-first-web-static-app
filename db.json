@@ -1,0 +1,84 @@
+{
+    "issuer": "https://ssoubits-qa.buk.cl",
+    "authorization_endpoint": "https://ssoubits-qa.buk.cl/oauth/authorize",
+    "token_endpoint": "https://ssoubits-qa.buk.cl/oauth/token",
+    "userinfo_endpoint": "https://ssoubits-qa.buk.cl/oauth/userinfo",
+    "registration_endpoint": "",
+    "jwks_uri": "https://dev-05333386.okta.com/oauth2/v1/keys?client_id=0oa9s6skoafpQjWQp5d7",
+    "response_types_supported": [
+        "code"
+    ],
+    "response_modes_supported": [
+        "query",
+        "fragment",
+        "form_post",
+        "okta_post_message"
+    ],
+    "grant_types_supported": [
+        "authorization_code"
+    ],
+    "subject_types_supported": [
+        "public"
+    ],
+    "id_token_signing_alg_values_supported": [
+        "RS256"
+    ],
+    "scopes_supported": [
+        "openid"
+    ],
+    "token_endpoint_auth_methods_supported": [
+        "client_secret_basic"
+    ],
+    "claims_supported": [
+        "iss",
+        "ver",
+        "sub",
+        "aud",
+        "iat",
+        "exp",
+        "jti",
+        "auth_time",
+        "amr",
+        "idp",
+        "nonce",
+        "name",
+        "nickname",
+        "preferred_username",
+        "given_name",
+        "middle_name",
+        "family_name",
+        "email",
+        "email_verified",
+        "profile",
+        "zoneinfo",
+        "locale",
+        "address",
+        "phone_number",
+        "picture",
+        "website",
+        "gender",
+        "birthdate",
+        "updated_at",
+        "at_hash",
+        "c_hash"
+    ],
+    "code_challenge_methods_supported": [
+        "S256"
+    ],
+    "introspection_endpoint": "",
+    "introspection_endpoint_auth_methods_supported": [
+        "client_secret_basic"
+    ],
+    "revocation_endpoint": "https://ssoubits-qa.buk.cl/oauth/revoke",
+    "revocation_endpoint_auth_methods_supported": [
+        "client_secret_basic"
+    ],
+    "end_session_endpoint": "",
+    "request_parameter_supported": true,
+    "request_object_signing_alg_values_supported": [
+        "HS256",
+        "HS384",
+        "HS512"
+    ],
+    "device_authorization_endpoint": ""
+}

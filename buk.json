@@ -4,7 +4,7 @@
     "token_endpoint": "https://ssoubits-qa.buk.cl/oauth/token",
     "userinfo_endpoint": "https://ssoubits-qa.buk.cl/oauth/userinfo",
     "registration_endpoint": "",
-    "jwks_uri": "",
+    "jwks_uri": "https://login.microsoftonline.com/f2ae0b0c-fd68-40dd-b277-e315bade44f5/discovery/v2.0/keys",
     "response_types_supported": [
         "code"
     ],
